@@ -1,0 +1,124 @@
+@font-face{
+    font-family: baron;
+    src: url('baroncaps.otf');
+}
+body{
+    /*font-family: baron;*/
+    font-family: 'Inconsolata', monospace;
+    -webkit-font-smoothing: antialiased !important;
+}
+.fancy_title{
+    width: 30%;
+    z-index: 0;
+    position: relative;
+    top:240px;
+    left:138px;
+    font-size: 70px;
+    letter-spacing: 12px;
+}
+/*.char1{
+    position: relative;
+    font-size: 82px;
+    display:inline-block;
+    transform:rotate(-6deg) scaleY(1.20);
+    top:8px;
+}
+.char2{
+    position: relative;
+    top:-2px;
+    display:inline-block;
+    transform:scaleY(1.2) rotate(-4deg);
+}
+.char3{
+    position: relative;
+    bottom: 0px;
+    display:inline-block;
+    transform:scaleY(1.2) rotate(4deg);
+}
+.char4{
+    position: relative;
+    display: inline-block;
+    transform:rotate(6deg) scaleY(1.4);
+    top:6px;
+}
+.char5{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    transform: scale(1,1.1);
+}
+.char6{
+     position: relative;
+    font-size: 82px;
+    display:inline-block;
+    transform:rotate(10deg) scale(1);
+    top:5px;
+}
+.char7{
+    position: relative;
+    display:inline-block;
+}*/
+#viz{
+    z-index:10;
+    margin: -175px 0 0 48px;
+}
+#viz2{
+    z-index:10;
+}
+img{
+    position:absolute;
+    z-index: -1;
+    top:100px;
+    margin-left:130px;
+}
+text{
+    transform:rotateX(50deg);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    transform: scaleY(1);
+}
+#control-container{
+    position: absolute;
+    left:50vw;
+    top:50px;
+    width:300px;
+    height:400px;
+    background: #fff;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px #fafafa;
+}
+
+form{
+    z-index: 10;
+    margin-top:40px;
+    width: 100%;
+}
+
+.form-control{
+    width:100%;
+    display: block;
+    margin: auto;
+}
+
+.topTextContainer{
+    height: 100%;
+    margin:10px 0;
+}
+.ringText::first-letter{
+    stroke: red !important;
+}
+#tText{
+    width:80%;
+}
+
+.btn{
+    background: #191919;
+    width:80%;
+    margin: 10px auto;
+}
+
+.btn:hover, .btn:focus{
+    background: #666 !important;
+    outline: none !important;
+}
+
